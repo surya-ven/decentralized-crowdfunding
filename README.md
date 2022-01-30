@@ -1,7 +1,7 @@
 # Decentralised Crowdfunding Platform
 Decentralized crowdfunding platform made using Solidity, NextJS, React, and TailwindCSS.
 
-### Note:
+## Note:
 Code was generated as part of the Ethereum and Solidity course by Steven Grider on Udemy.
 
 Changes: the course was quite dated, therefore, I've used the most recent versions of modules and adopted the code to match, made the components more modular, used Tailwind CSS, and functional components.
