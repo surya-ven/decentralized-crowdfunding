@@ -11,7 +11,7 @@ It is not optimised for production and thus won't contain instructions for deplo
 # Installing the project in dev mode:
 1. Update your env variables, INFURA_URL (infura provider url), PNEUMONIC (your pneumonic for metamask), NODE_ENV=development, and CONTRACT_NAME (the name of your contract without the .sol suffix)
 2. Run `node ethereum/compile` from the root directory - this will create a build folder within the ethereum folder
-3. Run `node ethereum/deploy' from the root directory and copy the contract address from the terminal
+3. Run `node ethereum/deploy` from the root directory and copy the contract address from the terminal
 4. Within ethereum/campaignFactory.js, replace the string "ENTER CONTRACT ADDRESS HERE" with your deployed contract address
 5. Within ethereum/web3.js, replace the string "ENTER YOUR INFURA PROVIDER URL HERE" with the same infuar provider url as the INFURA_URL .env variable
 Note: .env variables weren't used for these variables to speed up development
